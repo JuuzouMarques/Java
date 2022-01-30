@@ -44,7 +44,18 @@ public class entradadedados {
         s3 = sc.nextLine();
         System.out.println("Dados digitados:");
         System.out.printf("%s %n%s %n%s", s1, s2, s3);
-
+        
         sc.close();
+
+        // Funções Matemáticas
+
+        double x, y, z;
+        x = 3.0;
+        y = 4.0;
+        z = -5.0;
+
+        System.out.println("Raiz quadrada de " + y + " vale: " + (int) Math.sqrt(y));
+        System.out.println(x + " elevado a " + y + " é igual a: " + Math.pow(x, y));
+        System.out.println("O valor absoluto de " + z + " é " + Math.abs(z));
     }
 }
