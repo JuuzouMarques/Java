@@ -20,5 +20,11 @@ public class Main {
         int idade = 25;
         double salario = 2500.00;
         System.out.printf("%s tem %d anos, e salário de %.2f reais %n", nome, idade, salario);
+
+        // Casting
+        double a = 2.9;
+        int b = (int) a;
+        System.out.println(b);
+
     }
 }
