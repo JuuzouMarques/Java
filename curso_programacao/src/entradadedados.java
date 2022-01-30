@@ -36,6 +36,15 @@ public class entradadedados {
         System.out.println("Dados digitados:");
         System.out.printf("%s %n%d %n%f", g, h ,i);
 
+        // Ler até a quebra de linha
+        String s1, s2, s3;
+
+        s1 = sc.nextLine();
+        s2 = sc.nextLine();
+        s3 = sc.nextLine();
+        System.out.println("Dados digitados:");
+        System.out.printf("%s %n%s %n%s", s1, s2, s3);
+
         sc.close();
     }
 }
