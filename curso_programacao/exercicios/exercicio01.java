@@ -1,3 +1,4 @@
+package exercicios;
 import java.util.Locale;
 
 public class exercicio01 {
