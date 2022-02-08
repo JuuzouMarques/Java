@@ -2,7 +2,7 @@ package exercicios;
 import java.util.Locale;
 
 public class exercicio01 {
-
+    // Exercícios Entradas de Dados
     public static void main(String[] args) {
         String product1 = "Computer";
         String product2 = "Office desk";
