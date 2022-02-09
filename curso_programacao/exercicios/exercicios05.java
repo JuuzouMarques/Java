@@ -19,8 +19,8 @@ public class exercicios05 {
         int n = sc.nextInt();
         int in = 0, out = 0;
         for (int i = 0; i < n; i++) {
-            int num = sc.nextInt();
-            if (num >= 10 && num <= 20) {
+            int number = sc.nextInt();
+            if (number >= 10 && number <= 20) {
                 in++;
             } else {
                 out++;
