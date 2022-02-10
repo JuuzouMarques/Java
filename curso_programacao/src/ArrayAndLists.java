@@ -34,6 +34,15 @@ public class ArrayAndLists {
         }
         System.out.printf("Preço médio: %.2f%n", (soma / prod.length));
 
+        String nomes[] = new String[] {"Maria", "Bob", "Alex"};
+        for (int i=0; i<nomes.length; i++) {
+            System.out.println(nomes[i]);
+        }
+        System.out.println("--------------------");
+        for (String nome : nomes) {
+            System.out.println(nome);
+        }        
+
         sc.close();
     }
 }
