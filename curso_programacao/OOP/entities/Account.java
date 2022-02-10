@@ -1,6 +1,7 @@
 package OOP.entities;
 
 public class Account {
+    // Atributos
     private int accountID;
     private String holder;
     private double balance;
