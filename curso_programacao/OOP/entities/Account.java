@@ -11,10 +11,10 @@ public class Account {
         this.holder     = holder;
     }
 
-    public Account(int accountID, String holder, double balance) {
+    public Account(int accountID, String holder, double inicialDeposit) {
         this.accountID  = accountID;
         this.holder     = holder;
-        this.balance    = balance;
+        deposit(inicialDeposit);;
     }
 
     // Métodos Get e Set
